@@ -2,7 +2,7 @@ import array
 
 class Table:
     """
-    Motor de dados colunar nativo e genérico de alta performance.
+    Container de dados colunar nativo e genérico de alta performance.
     Focado em processamento out-of-core de grandes volumes de dados (CRUD).
     """
     
