@@ -1,0 +1,59 @@
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fishpylib"
+version = "0.1.0a1"
+description = "An open-source Python library for fisheries science."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+keywords = [
+    "fisheries",
+    "fisheries-science",
+    "fishery-science",
+    "biology",
+    "aquatic-resources",
+    "scientific-computing",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+data = [
+    "pandas",
+]
+plot = [
+    "matplotlib",
+]
+dev = [
+    "pytest",
+    "ruff",
+    "build",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fishpylib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
