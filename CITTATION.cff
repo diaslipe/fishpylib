@@ -3,7 +3,7 @@ cff-version: 1.2.0
 message: "If you use fishpylib in your research, please cite this software."
 title: "fishpylib"
 type: software
-version: 0.1.0a1
+version: 0.1.0dev1
 abstract: >
   An open-source Python library developed to facilitate and expand
   the use of scientific computing in fisheries science. The project
