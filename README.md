@@ -1,82 +1,99 @@
 
 # fishpylib
 
-**Uma biblioteca Python open-source dedicada às ciências pesqueiras.**
+**An open-source Python library dedicated to fisheries science.**
 
-## Sobre o projeto
+## About the project
 
-A **fishpylib** é uma biblioteca de código aberto desenvolvida em Python com o objetivo de facilitar, ampliar e democratizar o uso da computação científica nas ciências pesqueiras.
+**fishpylib** is an open-source library developed in Python with the goal of facilitating, expanding, and democratizing the use of scientific computing in fisheries science.
 
-O projeto busca disponibilizar ferramentas computacionais acessíveis, modulares e cientificamente fundamentadas para apoiar atividades de ensino, pesquisa e aplicação profissional relacionadas aos recursos pesqueiros.
+The project aims to provide accessible, modular, and scientifically grounded computational tools to support teaching, research, and professional applications related to fisheries resources.
 
-A biblioteca pretende integrar o ecossistema científico do Python às necessidades específicas das ciências pesqueiras, aproveitando ferramentas consolidadas de computação numérica, estatística, análise de dados, modelagem matemática e inteligência artificial.
+The library intends to integrate the Python scientific ecosystem with the specific needs of fisheries science, leveraging established tools for numerical computing, statistics, data analysis, mathematical modeling, and artificial intelligence.
 
-## Áreas de aplicação
+## Application areas
 
-Entre as áreas contempladas pelo projeto estão:
+Among the areas covered by the project are:
 
-- Biologia pesqueira;
-- Dinâmica e avaliação de estoques;
-- Estatística pesqueira;
-- Modelagem e simulação populacional;
-- Análise de dados pesqueiros;
-- Machine learning aplicado às ciências pesqueiras;
-- Aquicultura;
-- Tecnologia de pesca;
-- Ecologia e conservação de recursos aquáticos.
+- Fisheries biology;
 
-## Filosofia do projeto
+- Stock dynamics and assessment;
 
-A fishpylib adota os seguintes princípios:
+- Fisheries statistics;
 
-- **Acessibilidade:** tornar ferramentas computacionais mais acessíveis a estudantes, pesquisadores e profissionais.
-- **Fundamentação científica:** desenvolver métodos apoiados em literatura científica e fundamentos matemáticos reconhecidos.
-- **Reprodutibilidade:** favorecer análises transparentes e reproduzíveis.
-- **Modularidade:** organizar os recursos em módulos independentes e especializados.
-- **Interoperabilidade:** aproveitar a integração com o ecossistema científico do Python.
-- **Extensibilidade:** permitir a incorporação progressiva de novos métodos e funcionalidades.
+- Population modeling and simulation;
 
-A biblioteca não pretende reinventar ferramentas já consolidadas, mas integrá-las e aplicá-las à resolução de problemas específicos das ciências pesqueiras.
+- Fisheries data analysis;
 
-## Estado de desenvolvimento
+- Machine learning applied to fisheries science;
 
-<text>Projeto em desenvolvimento inicial.</text>
+- Aquaculture;
 
-A versão atual está em fase de estruturação. As funcionalidades científicas serão incorporadas progressivamente, acompanhadas de testes, documentação e validação.
+- Fishing technology;
 
-O projeto ainda não deve ser considerado adequado para aplicações de produção.
+- Ecology and conservation of aquatic resources.
 
-## Tecnologias
+## Project Philosophy
+
+The fishpylib adopts the following principles:
+
+- **Accessibility:** making computational tools more accessible to students, researchers, and professionals.
+
+- **Scientific basis:** developing methods supported by scientific literature and recognized mathematical foundations.
+
+- **Reproducibility:** favoring transparent and reproducible analyses.
+
+- **Modularity:** organizing resources into independent and specialized modules.
+
+- **Interoperability:** leveraging integration with the Python scientific ecosystem.
+
+- **Extensibility:** allowing the progressive incorporation of new methods and functionalities.
+
+The library does not intend to reinvent already established tools, but to integrate and apply them to solving specific problems in fisheries science.
+
+## Development Status
+
+<text>Project in initial development.</text>
+
+The current version is in the structuring phase. Scientific functionalities will be progressively incorporated, accompanied by testing, documentation, and validation.
+
+The project should not yet be considered suitable for production applications.
+
+## Technologies
 
 - Python;
+
 - NumPy;
+
 - SciPy;
-- Pandas (opcional);
-- Matplotlib (opcional).
 
-## Instalação
+- Pandas (optional);
 
-A biblioteca ainda não possui uma versão publicada no PyPI.
+- Matplotlib (optional).
 
-A instalação será disponibilizada após a preparação do primeiro pré-lançamento.
+## Installation
 
-## Exemplo de utilização
+The library does not yet have a published version on PyPI.
 
-Os exemplos de utilização serão adicionados à medida que as funcionalidades forem implementadas.
+Installation will be available after the preparation of the first pre-release.
 
-## Documentação
+## Usage Example
 
-A documentação técnica será desenvolvida progressivamente.
+Usage examples will be added as functionalities are implemented.
 
-## Contribuições
+## Documentation
 
-Contribuições são bem-vindas. Consulte o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer as orientações do projeto.
+Technical documentation will be developed progressively.
 
-## Licença
+## Contributions
 
-Este projeto é distribuído sob a licença BSD 3-Clause. Consulte o arquivo [LICENSE](LICENSE) para obter os termos completos.
+Contributions are welcome. Consult the [CONTRIBUTING.md](CONTRIBUTING.md) file for project guidelines.
 
-## Citação
+## License
 
-Caso utilize a fishpylib em trabalhos acadêmicos ou científicos, consulte o arquivo [CITATION.cff](CITATION.cff) para obter as informações de citação.
+This project is distributed under the BSD 3-Clause license. Consult the [LICENSE](LICENSE) file for the complete terms.
+
+## Citation
+
+If you use fishpylib in academic or scientific work, consult the [CITATION.cff](CITATION.cff) file for citation information.
 
